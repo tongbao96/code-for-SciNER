@@ -147,7 +147,7 @@ def compute_cls_loss(y_pred, y_true):
             loss_fn = nn.CrossEntropyLoss()
             loss = loss_fn(y_pred_i, y_true_i)
             losses.append(loss)
-    return torch.stack(losses).mean() if losses else torch.tensor(0.0).to(y_pred.device)
+    return 0.1*torch.stack(losses).mean() if losses else torch.tensor(0.0).to(y_pred.device)
 
 def entity_specific_pooling(encoder_last_hidden_state, entity_positions, attention_mask):
     pooled_output = []
