@@ -25,7 +25,7 @@
   ├── fine_tune_encoder.py                Code for fine_tune_encoder
   ├── history_config.json                 Save model performance
   ├── gpt.py                              Code for test ChatGPT or GPT4
-  ├── train.py                            Code for train the model
+  └─  train.py                            Code for train the model
 </pre>
 
 ## Dataset Discription
