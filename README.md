@@ -7,7 +7,7 @@
 **Dataset and source code for paper: "A Type-driven Multi-task Learning Framework for Scientific Named Entity Recognition with Large Language Models".**
 
 ## Directory structure
-<pre> SciNER                                   Root directory
+<pre>  SciNER                                   Root directory
   ├── data                                Dataset folder
   |   ├── SciERC                          Download SciERC dataset
   |   ├── jnlppa	                  Download JNLPBA dataset
