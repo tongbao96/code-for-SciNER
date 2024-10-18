@@ -15,7 +15,7 @@ from collections import defaultdict
 
 
 
-def get_topk(model, input, entity_info, topk=5, threshold=0.0, w1=0.5, w2=0.5):
+def get_topk(model, input, entity_info, topk=5, threshold=0.0, w1=0.3, w2=0.7):
     descriptions = [info[0] for info in entity_info]
     sentences = [info[1] for info in entity_info]
     entity_types = [x for x in get_entity_type_desc(data_type).keys()]

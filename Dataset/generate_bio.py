@@ -16,7 +16,7 @@ import os
 os.environ['CURL_CA_BUNDLE'] = ''
 
 
-def get_topk(model, input, entity_info, topk=5, threshold=0.0, w1=0.5, w2=0.5):
+def get_topk(model, input, entity_info, topk=5, threshold=0.0, w1=0.3, w2=0.7):
     
     descriptions = [info[0] for info in entity_info]
     sentences = [info[1] for info in entity_info]

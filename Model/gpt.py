@@ -2,7 +2,7 @@ import json
 import http.client
 import os
 
-input_file_path = '../data/SciERC/test.json'
+input_file_path = '../Dataset/SciERC/test.json'
 output_file_path = 'SciERC-ChatGPT-results.json'
 progress_file_path = 'progress.txt'
 api_key = ''

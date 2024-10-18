@@ -61,8 +61,8 @@ def generate_full_prompt(test_example, train_examples):
     prompt += text_part + "\noutput:"
     return prompt
 
-train_file_path = "data/SciERC/train_SciBERT_0.70_cls.json"
-test_file_path = "data/SciERC/test_SciBERT_0.70_cls.json"
+train_file_path = "../Dataset/SciERC/train_SciBERT_0.70_cls.json"
+test_file_path = "../SciERC/test_SciBERT_0.70_cls.json"
 
 E_candidate_full = load_training_examples(train_file_path)
 test_data = load_test_examples(test_file_path)

@@ -63,7 +63,7 @@ def get_topk(model, input_text, keys, topk):
     return [keys[i] for i in topk_indices]
 
 MODEL_PATH = "./BioBERT"  
-DATA_PATH = "./data/jnlpba"
+DATA_PATH = "../Dataset/jnlpba"
 
 if __name__ == "__main__":
     train_dataset = load_train_data(DATA_PATH)
