@@ -105,4 +105,4 @@ We recommend using Anaconda to create your own virtual environment, then install
 
 Please cite the following paper if you use this code and dataset in your work.
 
->Tong Bao, Yi Zhao, Heng Zhang, Chengzhi Zhang\*.A Type-driven Multi-task Learning Framework for Scientific Named Entity Recognition with Large Language Models. ***Information processing & management***, 2024(submitted).
+>Tong Bao, Yi Zhao, Heng Zhang, Chengzhi Zhang\*.A Type-driven Multi-task Learning Framework for Scientific Named Entity Recognition with Large Language Models. ***Expert Systems with Applications***, 2024(submitted).
