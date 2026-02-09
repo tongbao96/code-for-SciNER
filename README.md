@@ -1,6 +1,6 @@
 
 
-# **Enhancing Scientific Named Entity Recognition via Large Language Models: A Type-driven Multi-task Learning Approach
+# Enhancing Scientific Named Entity Recognition via Large Language Models: A Type-driven Multi-task Learning Approach
 
 ## Overview
 
