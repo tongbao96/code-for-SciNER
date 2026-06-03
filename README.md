@@ -4,7 +4,11 @@
 
 ## Overview
 
-Dataset and source code for paper: "Enhancing Scientific Named Entity Recognition via Large Language Models: A Type-driven Multi-task Learning Approach  (**Submitted to Expert Systems with Applications, 2025, January 2 (Under Review)**".
+Dataset and source code for paper: "Enhancing Scientific Named Entity Recognition via Large Language Models: A Type-driven Multi-task Learning Approach  
+
+**2025.01.02-> Submitted to "Expert Systems with Applications"-> Under Review**.
+
+**The code will be updated upon acceptance.**
 
 ## Directory structure
 
@@ -105,4 +109,4 @@ We recommend using Anaconda to create your own virtual environment, then install
 
 Please cite the following paper if you use this code and dataset in your work.
 
->Tong Bao, Yi Zhao, Heng Zhang, Chengzhi Zhang\*.Enhancing Scientific Named Entity Recognition via Large Language Models: A Type-driven Multi-task Learning Approach. ***Expert Systems with Applications***, 2025, January 2 (Revised).
+>Tong Bao, Yi Zhao, Heng Zhang, Chengzhi Zhang\*.Enhancing Scientific Named Entity Recognition via Large Language Models: A Type-driven Multi-task Learning Approach. ***Expert Systems with Applications***, 2025.01.02 (Revised).
