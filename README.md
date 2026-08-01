@@ -8,7 +8,10 @@ Dataset and source code for paper: "Enhancing Scientific Named Entity Recognitio
 
 **2025.01.02-> Submitted to "Expert Systems with Applications"-> Under Review**.
 
-**The code will be updated upon acceptance.**
+> [!IMPORTANT]
+> **Manuscript Status**: Submitted to Expert Systems with Applications on January 2, 2025, and currently still under review.
+> 
+> **Code:** The complete and up-to-date code will be updated upon acceptance.
 
 ## Directory structure
 
