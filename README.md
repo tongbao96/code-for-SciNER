@@ -6,12 +6,6 @@
 
 Dataset and source code for paper: "Enhancing Scientific Named Entity Recognition via Large Language Models: A Type-driven Multi-task Learning Approach  
 
-**2025.01.02-> Submitted to "Expert Systems with Applications"-> Under Review**.
-
-> [!IMPORTANT]
-> **Manuscript Status**: Submitted to Expert Systems with Applications on January 2, 2025, and currently still under review.
-> 
-> **Code:** The complete and up-to-date code will be updated upon acceptance.
 
 ## Directory structure
 
@@ -92,7 +86,7 @@ We recommend using Anaconda to create your own virtual environment, then install
 2. Download the SciBERT model from (https://huggingface.co/allenai/scibert_scivocab_uncased) to the `SciBERT` directory, the BioBERT model from (https://github.com/naver/biobert-pretrained) to the `BioBERT` directory, and the Flan-t5-xxl model from (https://huggingface.co/philschmid/flan-t5-xxl-sharded-fp16) to the `flan-t5-xxl` directory. 
 3. Run `generate_bio.py` to generate the training data format for the JNLPBA and BC5CDR datasets, and run `generate_sci.py` to generate the training data format for the SciERC dataset. 
 4. Run `python fine_tune_encoder.py` on different datasets to obtain better vector representations. 
-5. Run `python lora.py` to train the flan-t5-xl model. This has been tested on a GPU with 40 GB of memory. 
+5. Run `python train.py` to train the flan-t5-xl model. This has been tested on a GPU with 40 GB of memory. 
 6. Run `python demonstrations.py` to obtain suitable few-shot examples, then use the above-trained model for inference.
 7. For ChatGPT or GPT-4, run `python gpt.py` to call the API for testing (API-key needed).  
 
