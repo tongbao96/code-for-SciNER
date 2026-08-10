@@ -12,7 +12,7 @@ Dataset and source code for paper: "Enhancing Scientific Named Entity Recognitio
 <pre> SciNER                                   Root directory
   ├── Dataset                             Dataset folder
   |   ├── SciERC                          Download SciERC dataset
-  |   ├── jnlppa	                  Download JNLPBA dataset
+  |   ├── jnlppa	                      Download JNLPBA dataset
   |   ├── bc5cdr                          Download BC5CDR dataset
   |   ├── generate_bio.py                 Generate training data for JNLPBA and BC5CDR
   |   ├── generate_sci.py                 Generate training data SciERC
@@ -24,7 +24,7 @@ Dataset and source code for paper: "Enhancing Scientific Named Entity Recognitio
   |   ├── flan-t5-xl                      Download Flan-t5-xl model
   |   ├── utils                              
   |   |   ├── tag_map.py                  Entity type mapping file
-  |   ├── demonstrations.py              Code for select demonstrations
+  |   ├── demonstrations.py               Code for select demonstrations
   |   ├── fine_tune_encoder.py            Code for fine_tune_encoder
   |   ├── history_config.json             Save model performance
   |   ├── gpt.py                          Code for test ChatGPT or GPT4
